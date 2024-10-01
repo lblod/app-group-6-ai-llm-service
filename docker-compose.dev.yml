@@ -1,0 +1,9 @@
+services:
+  identifier:
+    image: ollama/ollama:latest     # Specify the LLM Docker image
+    ports:
+      - "80:80"
+    environment:                    # Set any required environment variables
+      - MODEL_NAME=llama3.2         # Example variable for model name
+    volumes:                        # Optional: mount volumes for data
+      - ./data:/app/data            # Mount local data directory to container

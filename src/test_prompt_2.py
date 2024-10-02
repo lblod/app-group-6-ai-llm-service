@@ -85,10 +85,10 @@ def reformulate_information(data):
 json_data = '''
 [
     {
-        "title": "Aanvraag vergunning Autovrij Gebied",
-        "description": "Een bouwvergunning is vereist voor het bouwen of verbouwen van een woning of ander gebouw.",
+        "title": "Subsidies erosiebestrijdingsplan"@nl-be-x-generated-informal",
+        "description": "Kosten voor de opmaak van erosiebestrijdingsplannen",
         "requirementDescription": "",
-        "procedureDescription": "Test Procedure"
+        "procedureDescription": ""
     }
 ]
 '''
